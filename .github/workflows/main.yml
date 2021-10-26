@@ -4,9 +4,9 @@ name: AutoSubmit
 
 # Controls when the action will run. 
 on:
-  # Uncomment following lines to schedule an auto-submit 10:00 Every day
+  # Uncomment following lines to schedule an auto-submit 10:00(China time) Every day
   #schedule:
-    #- cron: '0 10 * * *'
+    #- cron: '0 2 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
