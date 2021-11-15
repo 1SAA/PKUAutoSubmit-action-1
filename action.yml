@@ -14,9 +14,13 @@ inputs:
     required: true
     default: "燕园"
   reason:
-    description: "出入校事由"
+    description: "出入校事由 (学业、科研、就业、就医、经院系批准的其它必要事项)"
     required: true
-    default: "恰饭"
+    default: "就业"
+  detail:
+    description: "出入校事由详细信息"
+    required: true
+    default: "实习"
   in_habitation:
     description: "入校前居住地 (北京、京外)"
     required: true
@@ -58,6 +62,7 @@ runs:
     - ${{ inputs.password }}
     - ${{ inputs.campus }}
     - ${{ inputs.reason }}
+    - ${{ inputs.detail }}
     - ${{ inputs.in_habitation }}
     - ${{ inputs.in_district }}
     - ${{ inputs.in_street }}
