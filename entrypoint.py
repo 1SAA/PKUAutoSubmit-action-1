@@ -22,7 +22,8 @@ if __name__ == '__main__':
     parser.add_argument('username', type=str)
     parser.add_argument('password', type=str)
     parser.add_argument('campus', type=str, default="燕园")
-    parser.add_argument('reason', type=str, default="恰饭")
+    parser.add_argument('reason', type=str, default="就业")
+    parser.add_argument('detail', type=str, default="实习")
     parser.add_argument('in_habitation', type=str, default="北京")
     parser.add_argument('in_district', type=str, default="海淀区")
     parser.add_argument('in_street', type=str, default="燕园街道")
@@ -45,7 +46,7 @@ if __name__ == '__main__':
     )
     print('Driver Launched\n')
 
-    run(driver_pjs, args.username, args.password, args.campus, args.reason,
+    run(driver_pjs, args.username, args.password, args.campus, args.reason, args.detail,
         args.out_destination, args.out_track,
         args.in_habitation, args.in_district, args.in_street, False, '',
         eval(args.wechat), args.sckey)
