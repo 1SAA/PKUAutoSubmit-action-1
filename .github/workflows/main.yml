@@ -27,5 +27,5 @@ jobs:
           reason: ${{secrets.reason}}
           detail: ${{secrets.detail}}
           out_track: ${{secrets.track}}
-          wechat: True
+          wechat: "True"
           sckey: ${{secrets.sendkey}}
