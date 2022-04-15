@@ -20,12 +20,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: yukimaikoriya/PKUAutoSubmit-action-1@main
+      - uses: 1SAA/PKUAutoSubmit-action-1@main
         with:
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
-          reason: ${{secrets.reason}}
-          detail: ${{secrets.detail}}
-          out_track: ${{secrets.track}}
+          reason: ${{就业}}
+          detail: ${{实习}}
+          out_track: ${{小西门附近}}
           wechat: "True"
           sckey: ${{secrets.sendkey}}
