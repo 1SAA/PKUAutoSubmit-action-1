@@ -28,7 +28,7 @@ if __name__ == '__main__':
     parser.add_argument('in_district', type=str, default="海淀区")
     parser.add_argument('in_street', type=str, default="燕园街道")
     parser.add_argument('out_destination', type=str, default="北京")
-    parser.add_argument('out_track', type=str, default="燕园-畅春园")
+    parser.add_argument('out_track', type=str, default="小西门附近")
     parser.add_argument('wechat', type=str, default="False")
     parser.add_argument('sckey', type=str, default="xxxxxxxx")
     args = parser.parse_args()

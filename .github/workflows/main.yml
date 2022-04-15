@@ -24,6 +24,5 @@ jobs:
         with:
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
-          out_track: ${{"小西门附近"}}
           wechat: "True"
           sckey: ${{secrets.sendkey}}
