@@ -24,8 +24,6 @@ jobs:
         with:
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
-          reason: ${{"就业"}}
-          detail: ${{"实习"}}
           out_track: ${{"小西门附近"}}
           wechat: "True"
           sckey: ${{secrets.sendkey}}
